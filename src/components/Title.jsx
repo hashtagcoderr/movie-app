@@ -1,5 +1,5 @@
 const Title = () => {
-  return <h1> Welcome to React </h1>
+  return <h1> Mern Stack development </h1>
 }
 
 export default Title;

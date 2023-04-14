@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from './components/Button';
+import Title from './components/Title';
+import { Counter } from "./components/Counter";
+import { MoviesList } from "./components/MoviesList";
 
 
 export const App = ()=>{
   return(
 <>
-    <h2>
-    Mern Stack 
-    </h2>
-   <Button>
-submit
-   </Button>
+    <Title />
+    
+    <Counter />
+      <hr />
+      <MoviesList />
+    
  </>
 
   )
     
 
 }
+
 
 export default App;
 
